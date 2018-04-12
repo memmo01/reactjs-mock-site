@@ -1,0 +1,35 @@
+
+
+    .group{
+        text-align: center;        
+        padding:10px 0 10px 0;
+     
+        }
+    .logoLogin{
+        display:inline-flex;
+    }
+  
+    a{
+        margin:0 20px 0 20px;
+           color:black;
+           line-height: 10px;
+    }
+.d-block{
+    height:650px;
+}
+
+
+.middleCards{
+    display:inline-flex;
+   
+}
+.card{
+    width:20%;
+    height:300px;
+    margin:20px 0 0 3.5%;
+}
+.middleArea{
+    background-image: url("./dog.JPG");
+    height:600px;
+    background-size: cover;
+}
