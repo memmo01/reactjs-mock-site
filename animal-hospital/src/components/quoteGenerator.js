@@ -1,7 +1,7 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Quotes extends Component{
+export default class Quotes extends React.Component{
     render(){
 
         const petFactQuotes=[{
