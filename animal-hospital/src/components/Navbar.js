@@ -15,7 +15,7 @@ export default class NavBar extends React.Component{
     }
 
     contact(){
-       this.setState({name:"contact"})
+       this.setState({name:"contact",})
     }
       appointment(){
        this.setState({name:"appointment"})

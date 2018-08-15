@@ -48,3 +48,12 @@ if(this.props.title  === "contact"){
         )
     }
 }
+
+// export class Input extends React.Component{
+//     render(){
+//         return(
+
+//             <input placeholder="type" />
+//         )
+//     }
+// }
