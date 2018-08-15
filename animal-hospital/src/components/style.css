@@ -7,13 +7,100 @@ body {
   margin: 0;
   padding: 0;
 }
+.middleArea {
+  background-image: url("../images/dog.JPG");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.title {
+  color: white;
+  margin: 100px 10px 50px 10px;
+  padding: 10px;
+  background: rgb(72, 72, 72, 0.3);
+}
+#titleQuote {
+  text-shadow: 2px 2px 2px rgba(64, 64, 64, 0.8);
+  font-size: 35px;
+}
+.petFact {
+  color: white;
+  margin: 0 10px 50px 10px;
+  height: 100%;
+  background: rgb(72, 72, 72, 0.3);
+}
+.petFact p {
+  margin-top: 10px;
+}
+#title-p-fact {
+  font-size: 28px;
+  border-bottom: 1px solid white;
+  text-shadow: 2px 2px 2px rgba(64, 64, 64, 0.8);
+}
+.navbar {
+  padding: 0;
+}
+.loginMobile {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.logoLogin {
+  display: none;
+}
+.group button {
+  margin: 0;
+  text-align: center;
+  display: none;
+}
+.full {
+  background-color: white;
+  position: fixed;
+  float: both;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+.titleSection {
+  display: inline-flex;
+}
+.titleSection h3 {
+  padding-left: 25px;
+}
+#ham {
+  margin-top: 20px;
+}
+.middleCards .card:not(:first-child) {
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 992px) {
+  .loginMobile {
+    display: none;
+  }
+
+  #ham {
+    display: none;
+  }
+  .loginMobile i {
+    display: none;
+  }
   .group {
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px 10%;
+    display: inline-flex;
+  }
+
+  .group button {
+    margin: 0;
+    text-align: center;
+    display: inline-flex;
   }
   .logoLogin {
     display: inline-flex;
+  }
+  .logoLogin .user {
+    margin-left: 50%;
   }
 
   .btn {
@@ -26,38 +113,14 @@ body {
     margin: 0 2% 0 2%;
   }
 
-  .middleArea {
-    background-image: url("./dog.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
   .title {
-    color: white;
     margin: 60px 0 200px 0;
-    background: rgb(72, 72, 72, 0.3);
   }
-  #titleQuote {
-    text-shadow: 2px 2px 2px rgba(64, 64, 64, 0.8);
-    font-size: 35px;
-  }
+
   .title p {
     margin-top: 30px;
   }
   .middleCards {
     display: inline-flex;
-  }
-  .petFact {
-    color: white;
-    margin: 0 0 50px 0;
-    height: 100%;
-    background: rgb(72, 72, 72, 0.3);
-  }
-  .petFact p {
-    margin-top: 10px;
-  }
-  #title-p-fact {
-    font-size: 28px;
-    border-bottom: 1px solid white;
-    text-shadow: 2px 2px 2px rgba(64, 64, 64, 0.8);
   }
 }

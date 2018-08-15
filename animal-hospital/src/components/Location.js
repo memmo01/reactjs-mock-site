@@ -11,7 +11,7 @@ export default class Location extends React.Component {
           most convenient for you.
         </p>
         <hr className="my-4" />
-        <img src={require("./map.JPG")} alt="maplocation" />
+        <img src={require("../images/map.JPG")} alt="maplocation" />
         <p>google map api with locations will be placed here</p>
       </div>
     );
