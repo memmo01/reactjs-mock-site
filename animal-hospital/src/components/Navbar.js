@@ -9,8 +9,6 @@ export default class NavBar extends React.Component {
   }
 
   handle() {
-    // $(".group").attr("class", "full");
-    // $(".full").css("display", "block");
     this.setState({
       show: !this.state.show
     });

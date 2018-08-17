@@ -123,4 +123,30 @@ body {
   .middleCards {
     display: inline-flex;
   }
+
+  /* //login page */
+
+  .loginContainer {
+    width: 40%;
+    margin-left: 30%;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  #loginForm {
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    align-content: center;
+  }
+  #loginForm input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #loginForm input[name="submit"] {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+  }
 }
