@@ -48,6 +48,11 @@ body {
 .logoLogin {
   display: none;
 }
+.logoLogin a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 .group button {
   margin: 0;
   text-align: center;
@@ -99,7 +104,7 @@ body {
   .logoLogin {
     display: inline-flex;
   }
-  .logoLogin .user {
+  .logoLogin a {
     margin-left: 50%;
   }
 
@@ -134,16 +139,17 @@ body {
     margin-top: 100px;
   }
   #loginForm {
-    width: 80%;
-    margin-left: 10%;
-    text-align: left;
-    align-content: center;
+    padding: 100px 0 100px 0;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
   }
   #loginForm input {
     display: block;
     width: 100%;
     margin-bottom: 10px;
   }
+
   #loginForm input[name="submit"] {
     margin-top: 10px;
     width: 50%;

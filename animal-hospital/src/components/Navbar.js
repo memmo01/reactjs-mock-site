@@ -50,10 +50,9 @@ export default class NavBar extends React.Component {
               <u>Animal Hospital </u>
             </h3>
             <div className="loginMobile">
-              <i class="fas fa-user fa-lg user" />
+              <i className="fas fa-user fa-lg user" />
             </div>
           </div>
-
           <div className="col-lg-7 group">
             <button type="button" className="btn btn-warning btn-lg">
               Contact
@@ -69,8 +68,11 @@ export default class NavBar extends React.Component {
             </button>
           </div>
           <div className=" col-lg logoLogin">
-            <i class="fas fa-user fa-2x user" />
-          </div>
+            <a href="/login">
+              {" "}
+              <i className="fas fa-user fa-2x user" />
+            </a>
+          </div>{" "}
         </nav>
       </div>
     );
