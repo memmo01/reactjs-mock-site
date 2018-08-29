@@ -61,10 +61,23 @@ body {
 .full {
   background-color: white;
   position: fixed;
-  float: both;
   z-index: 99;
   width: 100%;
-  height: 100%;
+  display: block;
+  text-align: center;
+}
+.full li {
+  list-style-type: none;
+}
+.full > :nth-child(2) {
+  padding-top: 50px;
+}
+.full > :nth-child(8) {
+  padding-bottom: 20px;
+}
+.full span {
+  float: right;
+  padding: 10px;
 }
 .titleSection {
   display: inline-flex;
@@ -82,6 +95,9 @@ body {
 @media screen and (min-width: 992px) {
   .loginMobile {
     display: none;
+  }
+  .title {
+    margin-bottom: 50px;
   }
 
   #ham {
@@ -116,10 +132,6 @@ body {
 
   .card {
     margin: 0 2% 0 2%;
-  }
-
-  .title {
-    margin: 60px 0 200px 0;
   }
 
   .title p {

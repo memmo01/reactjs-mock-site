@@ -23,18 +23,13 @@ export default class NavBar extends React.Component {
             <span onClick={this.handle.bind(this)}>
               <i class="far fa-times-circle" />
             </span>{" "}
-            <button type="button" class="btn btn-warning btn-lg">
-              Contact
-            </button>
-            <button type="button" class="btn btn-warning btn-lg">
-              Appointment
-            </button>
-            <button type="button" class="btn btn-warning btn-lg">
-              Emergency
-            </button>
-            <button type="button" className="btn btn-warning btn-lg">
-              About Us
-            </button>
+            <li>Contact</li>
+            <hr />
+            <li>Appointment</li>
+            <hr />
+            <li>Emergency</li>
+            <hr />
+            <li>About Us</li>
           </div>
         ) : null}
         <nav className="navbar navbar-light bg-warning">
@@ -70,7 +65,7 @@ export default class NavBar extends React.Component {
           <div className=" col-lg logoLogin">
             <a href="/login">
               {" "}
-              <i className="fas fa-user fa-2x user" />
+              <i className="fas fa-user fa-lg user" />
             </a>
           </div>{" "}
         </nav>
