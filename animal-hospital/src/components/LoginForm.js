@@ -22,6 +22,9 @@ class LoginContainer extends React.Component {
   render() {
     return (
       <div className="loginContainer">
+        <div className="signInTitle">
+          <h1>Sign In</h1>
+        </div>
         <form id="loginForm">
           <label>Username:</label>
           <input type="text" ref="username" name="username" />
